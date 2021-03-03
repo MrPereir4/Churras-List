@@ -3,18 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4FB59B85DF444EC199F1709F /* Pods_Churras_List.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BA6AF998DF6AE333EA7689 /* Pods_Churras_List.framework */; };
+		6B030AB425B615830032B07B /* BeveragesGetInfosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B030AB325B615830032B07B /* BeveragesGetInfosCell.swift */; };
+		6B26C4BC25AD1F5D001A9E12 /* MeatGetInfosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B26C4BB25AD1F5D001A9E12 /* MeatGetInfosCell.swift */; };
+		6B5E8FF725B76FA300D1E8BD /* OthersGetInfosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5E8FF625B76FA300D1E8BD /* OthersGetInfosCell.swift */; };
+		6B5E8FFF25B7716E00D1E8BD /* SpendingsGetInfosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5E8FFE25B7716E00D1E8BD /* SpendingsGetInfosCell.swift */; };
+		6B5E900425B7722F00D1E8BD /* MultSelectOptBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5E900325B7722F00D1E8BD /* MultSelectOptBoxView.swift */; };
+		6B75855725ACE63F00228E69 /* PeopleGetInfosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B75855625ACE63F00228E69 /* PeopleGetInfosCell.swift */; };
+		6B75855F25ACF2A600228E69 /* PeopleQuantityBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B75855E25ACF2A600228E69 /* PeopleQuantityBoxView.swift */; };
+		6B90CFE625C1FD260079D6EE /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B90CFE525C1FD260079D6EE /* ListViewController.swift */; };
+		6B9119F125C0AE1B0060AEBF /* ListOpt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9119F025C0AE1B0060AEBF /* ListOpt.swift */; };
 		6BACB7FB25AA3A3D00BBAFEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BACB7FA25AA3A3D00BBAFEF /* AppDelegate.swift */; };
 		6BACB7FD25AA3A3D00BBAFEF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BACB7FC25AA3A3D00BBAFEF /* SceneDelegate.swift */; };
-		6BACB7FF25AA3A3D00BBAFEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BACB7FE25AA3A3D00BBAFEF /* ViewController.swift */; };
-		6BACB80225AA3A3D00BBAFEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BACB80025AA3A3D00BBAFEF /* Main.storyboard */; };
 		6BACB80425AA3A3E00BBAFEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BACB80325AA3A3E00BBAFEF /* Assets.xcassets */; };
-		6BACB80725AA3A3E00BBAFEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BACB80525AA3A3E00BBAFEF /* LaunchScreen.storyboard */; };
 		6BACB81225AA3A3E00BBAFEF /* Churras_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BACB81125AA3A3E00BBAFEF /* Churras_ListTests.swift */; };
 		6BACB81D25AA3A3E00BBAFEF /* Churras_ListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BACB81C25AA3A3E00BBAFEF /* Churras_ListUITests.swift */; };
+		6BACB83E25AA3C0C00BBAFEF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BACB83D25AA3C0C00BBAFEF /* HomeViewController.swift */; };
+		6BACB84725AA3C9A00BBAFEF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BACB84625AA3C9A00BBAFEF /* Extensions.swift */; };
+		6BACB85225AA504300BBAFEF /* FullGetInfosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BACB85125AA504300BBAFEF /* FullGetInfosViewController.swift */; };
+		6BC0383025B0D79200254FAC /* StandardItemPickCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC0382F25B0D79200254FAC /* StandardItemPickCell.swift */; };
+		6BC0383B25B0F03900254FAC /* StandardItemShowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC0383A25B0F03900254FAC /* StandardItemShowCell.swift */; };
+		6BD04C8A25BA11DE00CAACF0 /* Meat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD04C8925BA11DE00CAACF0 /* Meat.swift */; };
+		6BD04C8F25BA1A0A00CAACF0 /* Beverages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD04C8E25BA1A0A00CAACF0 /* Beverages.swift */; };
+		6BD04C9425BA1D7200CAACF0 /* Others.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD04C9325BA1D7200CAACF0 /* Others.swift */; };
+		6BF80D0325C8B8BA00F70C57 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6BF80D0225C8B8BA00F70C57 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +51,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14E7DB9F19932A6525365162 /* Pods-Churras List.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Churras List.release.xcconfig"; path = "Target Support Files/Pods-Churras List/Pods-Churras List.release.xcconfig"; sourceTree = "<group>"; };
+		6B030AB325B615830032B07B /* BeveragesGetInfosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeveragesGetInfosCell.swift; sourceTree = "<group>"; };
+		6B26C4BB25AD1F5D001A9E12 /* MeatGetInfosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeatGetInfosCell.swift; sourceTree = "<group>"; };
+		6B5E8FF625B76FA300D1E8BD /* OthersGetInfosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OthersGetInfosCell.swift; sourceTree = "<group>"; };
+		6B5E8FFE25B7716E00D1E8BD /* SpendingsGetInfosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendingsGetInfosCell.swift; sourceTree = "<group>"; };
+		6B5E900325B7722F00D1E8BD /* MultSelectOptBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultSelectOptBoxView.swift; sourceTree = "<group>"; };
+		6B75855625ACE63F00228E69 /* PeopleGetInfosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleGetInfosCell.swift; sourceTree = "<group>"; };
+		6B75855E25ACF2A600228E69 /* PeopleQuantityBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleQuantityBoxView.swift; sourceTree = "<group>"; };
+		6B90CFE525C1FD260079D6EE /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		6B9119F025C0AE1B0060AEBF /* ListOpt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOpt.swift; sourceTree = "<group>"; };
 		6BACB7F725AA3A3D00BBAFEF /* Churras List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Churras List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BACB7FA25AA3A3D00BBAFEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6BACB7FC25AA3A3D00BBAFEF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6BACB7FE25AA3A3D00BBAFEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6BACB80125AA3A3D00BBAFEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6BACB80325AA3A3E00BBAFEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6BACB80625AA3A3E00BBAFEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6BACB80825AA3A3E00BBAFEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6BACB80D25AA3A3E00BBAFEF /* Churras ListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Churras ListTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BACB81125AA3A3E00BBAFEF /* Churras_ListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Churras_ListTests.swift; sourceTree = "<group>"; };
@@ -49,6 +72,17 @@
 		6BACB81825AA3A3E00BBAFEF /* Churras ListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Churras ListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BACB81C25AA3A3E00BBAFEF /* Churras_ListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Churras_ListUITests.swift; sourceTree = "<group>"; };
 		6BACB81E25AA3A3E00BBAFEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BACB83D25AA3C0C00BBAFEF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6BACB84625AA3C9A00BBAFEF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		6BACB85125AA504300BBAFEF /* FullGetInfosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullGetInfosViewController.swift; sourceTree = "<group>"; };
+		6BC0382F25B0D79200254FAC /* StandardItemPickCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardItemPickCell.swift; sourceTree = "<group>"; };
+		6BC0383A25B0F03900254FAC /* StandardItemShowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardItemShowCell.swift; sourceTree = "<group>"; };
+		6BD04C8925BA11DE00CAACF0 /* Meat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meat.swift; sourceTree = "<group>"; };
+		6BD04C8E25BA1A0A00CAACF0 /* Beverages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beverages.swift; sourceTree = "<group>"; };
+		6BD04C9325BA1D7200CAACF0 /* Others.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Others.swift; sourceTree = "<group>"; };
+		6BF80D0225C8B8BA00F70C57 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C7BA6AF998DF6AE333EA7689 /* Pods_Churras_List.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Churras_List.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15B6E03769B055C2D662FE2 /* Pods-Churras List.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Churras List.debug.xcconfig"; path = "Target Support Files/Pods-Churras List/Pods-Churras List.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FB59B85DF444EC199F1709F /* Pods_Churras_List.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +111,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DEF4D31697F82B4AFFDDC4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7BA6AF998DF6AE333EA7689 /* Pods_Churras_List.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B75855525ACE61000228E69 /* GetInfos */ = {
+			isa = PBXGroup;
+			children = (
+				6B75855625ACE63F00228E69 /* PeopleGetInfosCell.swift */,
+				6B26C4BB25AD1F5D001A9E12 /* MeatGetInfosCell.swift */,
+				6B030AB325B615830032B07B /* BeveragesGetInfosCell.swift */,
+				6B5E8FF625B76FA300D1E8BD /* OthersGetInfosCell.swift */,
+				6B5E8FFE25B7716E00D1E8BD /* SpendingsGetInfosCell.swift */,
+			);
+			path = GetInfos;
+			sourceTree = "<group>";
+		};
 		6BACB7EE25AA3A3D00BBAFEF = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +138,8 @@
 				6BACB81025AA3A3E00BBAFEF /* Churras ListTests */,
 				6BACB81B25AA3A3E00BBAFEF /* Churras ListUITests */,
 				6BACB7F825AA3A3D00BBAFEF /* Products */,
+				6FC43C1CACC5CBB6E2825B45 /* Pods */,
+				2DEF4D31697F82B4AFFDDC4E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +156,14 @@
 		6BACB7F925AA3A3D00BBAFEF /* Churras List */ = {
 			isa = PBXGroup;
 			children = (
+				6BACB84525AA3C7700BBAFEF /* Utils */,
+				6BACB83C25AA3BF500BBAFEF /* Controller */,
+				6BACB83B25AA3BF000BBAFEF /* View */,
+				6BACB83A25AA3BE900BBAFEF /* Model */,
 				6BACB7FA25AA3A3D00BBAFEF /* AppDelegate.swift */,
 				6BACB7FC25AA3A3D00BBAFEF /* SceneDelegate.swift */,
-				6BACB7FE25AA3A3D00BBAFEF /* ViewController.swift */,
-				6BACB80025AA3A3D00BBAFEF /* Main.storyboard */,
+				6BF80D0225C8B8BA00F70C57 /* GoogleService-Info.plist */,
 				6BACB80325AA3A3E00BBAFEF /* Assets.xcassets */,
-				6BACB80525AA3A3E00BBAFEF /* LaunchScreen.storyboard */,
 				6BACB80825AA3A3E00BBAFEF /* Info.plist */,
 			);
 			path = "Churras List";
@@ -128,6 +187,64 @@
 			path = "Churras ListUITests";
 			sourceTree = "<group>";
 		};
+		6BACB83A25AA3BE900BBAFEF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6BD04C8925BA11DE00CAACF0 /* Meat.swift */,
+				6BD04C8E25BA1A0A00CAACF0 /* Beverages.swift */,
+				6BD04C9325BA1D7200CAACF0 /* Others.swift */,
+				6B9119F025C0AE1B0060AEBF /* ListOpt.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6BACB83B25AA3BF000BBAFEF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6BC0382D25B0D76A00254FAC /* Cell */,
+				6B75855525ACE61000228E69 /* GetInfos */,
+				6B75855E25ACF2A600228E69 /* PeopleQuantityBoxView.swift */,
+				6B5E900325B7722F00D1E8BD /* MultSelectOptBoxView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6BACB83C25AA3BF500BBAFEF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6BACB83D25AA3C0C00BBAFEF /* HomeViewController.swift */,
+				6BACB85125AA504300BBAFEF /* FullGetInfosViewController.swift */,
+				6B90CFE525C1FD260079D6EE /* ListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6BACB84525AA3C7700BBAFEF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6BACB84625AA3C9A00BBAFEF /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		6BC0382D25B0D76A00254FAC /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6BC0382F25B0D79200254FAC /* StandardItemPickCell.swift */,
+				6BC0383A25B0F03900254FAC /* StandardItemShowCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		6FC43C1CACC5CBB6E2825B45 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F15B6E03769B055C2D662FE2 /* Pods-Churras List.debug.xcconfig */,
+				14E7DB9F19932A6525365162 /* Pods-Churras List.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +252,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6BACB82125AA3A3E00BBAFEF /* Build configuration list for PBXNativeTarget "Churras List" */;
 			buildPhases = (
+				2BC773F1F1C3CF2DCDB4D6EF /* [CP] Check Pods Manifest.lock */,
 				6BACB7F325AA3A3D00BBAFEF /* Sources */,
 				6BACB7F425AA3A3D00BBAFEF /* Frameworks */,
 				6BACB7F525AA3A3D00BBAFEF /* Resources */,
+				B2DAC7E1CCA1AEAEFE9402E8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +350,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BACB80725AA3A3E00BBAFEF /* LaunchScreen.storyboard in Resources */,
 				6BACB80425AA3A3E00BBAFEF /* Assets.xcassets in Resources */,
-				6BACB80225AA3A3D00BBAFEF /* Main.storyboard in Resources */,
+				6BF80D0325C8B8BA00F70C57 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +371,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2BC773F1F1C3CF2DCDB4D6EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Churras List-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2DAC7E1CCA1AEAEFE9402E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Churras List/Pods-Churras List-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Churras List/Pods-Churras List-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Churras List/Pods-Churras List-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6BACB7F325AA3A3D00BBAFEF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BACB7FF25AA3A3D00BBAFEF /* ViewController.swift in Sources */,
 				6BACB7FB25AA3A3D00BBAFEF /* AppDelegate.swift in Sources */,
 				6BACB7FD25AA3A3D00BBAFEF /* SceneDelegate.swift in Sources */,
+				6BD04C9425BA1D7200CAACF0 /* Others.swift in Sources */,
+				6BC0383B25B0F03900254FAC /* StandardItemShowCell.swift in Sources */,
+				6B5E8FF725B76FA300D1E8BD /* OthersGetInfosCell.swift in Sources */,
+				6BD04C8F25BA1A0A00CAACF0 /* Beverages.swift in Sources */,
+				6BACB85225AA504300BBAFEF /* FullGetInfosViewController.swift in Sources */,
+				6BC0383025B0D79200254FAC /* StandardItemPickCell.swift in Sources */,
+				6BACB83E25AA3C0C00BBAFEF /* HomeViewController.swift in Sources */,
+				6B9119F125C0AE1B0060AEBF /* ListOpt.swift in Sources */,
+				6BACB84725AA3C9A00BBAFEF /* Extensions.swift in Sources */,
+				6B030AB425B615830032B07B /* BeveragesGetInfosCell.swift in Sources */,
+				6B75855F25ACF2A600228E69 /* PeopleQuantityBoxView.swift in Sources */,
+				6B5E900425B7722F00D1E8BD /* MultSelectOptBoxView.swift in Sources */,
+				6BD04C8A25BA11DE00CAACF0 /* Meat.swift in Sources */,
+				6B75855725ACE63F00228E69 /* PeopleGetInfosCell.swift in Sources */,
+				6B5E8FFF25B7716E00D1E8BD /* SpendingsGetInfosCell.swift in Sources */,
+				6B90CFE625C1FD260079D6EE /* ListViewController.swift in Sources */,
+				6B26C4BC25AD1F5D001A9E12 /* MeatGetInfosCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,25 +470,6 @@
 			targetProxy = 6BACB81925AA3A3E00BBAFEF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		6BACB80025AA3A3D00BBAFEF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6BACB80125AA3A3D00BBAFEF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6BACB80525AA3A3E00BBAFEF /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6BACB80625AA3A3E00BBAFEF /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6BACB81F25AA3A3E00BBAFEF /* Debug */ = {
@@ -366,7 +523,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +578,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -433,6 +590,7 @@
 		};
 		6BACB82225AA3A3E00BBAFEF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F15B6E03769B055C2D662FE2 /* Pods-Churras List.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -446,12 +604,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "MRPereira.Churras-List";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		6BACB82325AA3A3E00BBAFEF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14E7DB9F19932A6525365162 /* Pods-Churras List.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -465,7 +624,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "MRPereira.Churras-List";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
